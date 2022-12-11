@@ -1,0 +1,30 @@
+.main{ 
+    width: 100vw;
+    height: 100vh;
+    background: #043873;
+    background-image: url("../../image/Element.png");
+}
+.section {
+    &__title {
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 65px;
+        text-align: center;
+        color: #FFFFFF;
+        letter-spacing: -0.02em;
+
+    }
+    &__post {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+
+
+    }
+    &__button{
+
+    }
+}
