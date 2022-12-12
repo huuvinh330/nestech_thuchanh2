@@ -2,9 +2,12 @@
     width: 100vw;
     height: 100vh;
     background: #043873;
-    background-image: url("../../image/Element.png");
+    padding-top: 140px;
 }
 .section {
+    background-image: url("../../image/Element.png");
+    background-repeat: no-repeat;
+    
     &__title {
         font-weight: 700;
         font-size: 54px;
@@ -21,10 +24,32 @@
         text-align: center;
         letter-spacing: -0.02em;
         color: #FFFFFF;
+        margin-top: 24px;
 
 
     }
     &__button{
-
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 40px;
+        margin: 0 auto;
+        margin-top: 60px;
+        background: #4F9CF9;
+        border-radius: 8px;
+        
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
     }
-}
+    &__img {
+        width: 551px;
+        height: 367px;
+        background: #C4DEFD;
+        margin: 0 auto;
+        margin-top: 100px;
+        
+    }
+}    
+   
